@@ -35,9 +35,9 @@ const myFunction = function () {
   
 }
 
-console.log(typeof bigNumber);
-console.log(typeof myFunction);
-console.log(typeof heros);
+// console.log(typeof bigNumber);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
 
 /*
 array = object
@@ -46,3 +46,28 @@ string = string
 function = function
 
 */
+
+
+//++++++++++++++++++++++++++++++++++
+// Stack (Primitive), Heap(Non primitive)
+
+let myYoutubeName = "ECB";
+
+let anothername = myYoutubeName
+anothername = "BCCI";
+
+console.log(anothername);
+console.log(myYoutubeName);
+
+let user1 = {
+    email : "user@gpay",
+    upi : "user@ybl"
+}
+
+let user2 = user1;
+
+
+user2.email = "shaurya@google.com";
+
+console.log(user1.email);
+console.log(user2.email);
