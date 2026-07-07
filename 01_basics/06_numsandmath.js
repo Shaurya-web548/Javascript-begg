@@ -16,10 +16,18 @@ const hundreds = 1000000;
 
 //+++++++++++++++++++++++++++++ MATHS ++++++++++++++++++++++++
 
-console.log(Math);
-console.log(Math.abs(-4));//Absolute Value
-console.log(Math.round(4.9));//Round Off
-console.log(Math.ceil(4.2));//Make the value +1 if it is .1 more than num.
+// console.log(Math);
+// console.log(Math.abs(-4));//Absolute Value
+// console.log(Math.round(4.9));//Round Off
+// console.log(Math.ceil(4.2));//Make the value +1 if it is .1 more than num.
 
+// console.log(Math.floor(4.9));//Gives the lowest or int value ex - 4.
 
+// console.log(Math.random());//Always lie between 0 and 1.
+// console.log((Math.random()*10) + 1);
+// console.log(Math.floor(Math.random()*10) + 1);
 
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min );
